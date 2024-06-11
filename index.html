@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fases da Lua</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <h1>As fases da lua</h1>
+    </header>
+    <main class="personagens-slider">
+      <button class="btn-seta btn-voltar" id="btn-voltar">
+        <img src="./src/imagens/seta.png" alt="seta para voltar a imagem" />
+      </button>
+
+      <ul class="lista-personagens">
+        <li class="cartao selecionado fundo-1">
+          <h2 class="nome">Lua nova</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/lua nova.jpg"
+            alt="Lua Nova"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Nesta fase, a Lua está alinhada entre a Terra e o Sol, com o lado iluminado da Lua voltado para longe da Terra, tornando-a praticamente invisível no céu noturno.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-2">
+          <h2 class="nome">Lua Crescente</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/lua crescente.jpg"
+            alt="Lua Crescente"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Após a Lua Nova, uma pequena porção do lado iluminado da Lua se torna visível, formando uma fina crescente no céu. Esta é a fase inicial do ciclo lunar.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-3">
+          <h2 class="nome">Lua Cheia</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/lua cheia.jpg"
+            alt="Lua Cheia"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Quando a Terra está entre o Sol e a Lua, a Lua está totalmente iluminada pelo Sol, aparecendo como um círculo completo e brilhante no céu noturno. Esta é a fase em que a Lua parece mais luminosa
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-4">
+          <h2 class="nome">Lua Minguante</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/lua minguante.jpg"
+            alt="Lua Minguante"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Nesta fase, a quantidade de luz visível continua a diminuir até que a Lua retorne à sua fase de Lua Nova, iniciando um novo ciclo lunar.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-5">
+          <h2 class="nome">Quarto Crescente</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/quarto crescente.jpg"
+            alt="Quarto Crescente"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Durante esta fase, aproximadamente metade do lado visível da Lua está iluminado, formando um quarto crescente. A Lua é visível no céu durante a tarde e parte da noite.
+            </p>
+          </div>
+        </li>
+        <li class="cartao fundo-6">
+          <h2 class="nome">Quarto Minguante</h2>
+
+          <img
+            class="imagem-personagem"
+            src="./src/imagens/quarto minguante.jpg"
+            alt="Quarto Minguante"
+          />
+
+          <div class="descricao">
+            <h3 class="titulo">Descrição</h3>
+            <p class="texto">
+              Após a Lua Cheia, a quantidade de luz visível começa a diminuir gradualmente, formando um quarto minguante. A Lua é visível durante a noite e parte da manhã.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-seta" id="btn-avancar">
+        <img src="./src/imagens/seta.png" alt="seta para avançar a imagem" />
+      </button>
+    </main>
+
+  <script src="./src/js/index.js"></script>
+
+  </body>
+</html>
